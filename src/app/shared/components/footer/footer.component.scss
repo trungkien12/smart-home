@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  margin: 2% 15%;
+  // justify-content: space-between;
+}
+
+.tit {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  // margin: 10% 0;
+}
+
+.underline {
+  border-top: 3px solid #F08E33 ;
+  width: 50px;
+  margin-bottom: 10%;
+}
+
+.introduce, .link, .fb, .shipping {
+  flex: 1;
+  margin-right: 20px ;
+}
+
+.shipping {
+  margin: 0 -20px;
+}
+
+.content {
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 14px;
+}

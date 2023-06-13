@@ -1,0 +1,12 @@
+<div class="header">
+  <div class="dropdown " *ngFor="let item of menuItems">
+    <button class="dropbtn">
+        <!-- <span nz-icon nzType="down" nzTheme="outline" *ngIf="item.children.length">{{item.name}}</span> -->
+        <!-- <span *ngIf="!item.children.length">{{item.name}}</span> -->
+        <span (click)="onClickMenu(item)">{{item.name}}</span>
+    </button>
+    <div class="dropdown-content" *ngIf="item.children.length">
+      <a (click)="onClickSubmenu(submenu)" *ngFor="let submenu of item.children">{{submenu.name}}</a>
+    </div>
+  </div>
+</div>

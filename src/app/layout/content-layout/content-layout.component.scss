@@ -1,0 +1,23 @@
+
+nz-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+nz-content {
+  flex-grow: 1;
+}
+
+nz-header {
+  height: 3%;
+  padding: 0;
+  padding: 0 14%;
+  background-color: #424A54;
+}
+
+nz-footer {
+  text-align: center;
+  padding: 24px;
+}

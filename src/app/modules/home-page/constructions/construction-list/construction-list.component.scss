@@ -1,0 +1,16 @@
+.list-post {
+  margin: 0 15%;
+}
+
+.list-post .post-preview {
+  display: flex;
+  margin: 0;
+  margin-left: -30px;
+  flex-wrap: wrap;
+}
+
+app-post-preview {
+  width: calc((100% / 4 - 30px));
+  margin-left: 30px;
+  margin-bottom: 30px;
+}

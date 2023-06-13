@@ -1,0 +1,43 @@
+
+.logo {
+  width: 7%;
+}
+
+.logo img {
+  width: 90px;
+  height: 70px;
+}
+
+.header {
+  display: flex;
+  margin: 0 14%;
+  padding: 1% 0;
+  justify-content: space-between;
+}
+
+.contact {
+  flex: 1;
+  align-items: end;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+.logoAndSearch {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 80%;
+}

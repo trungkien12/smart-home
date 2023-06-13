@@ -1,0 +1,23 @@
+b {
+  display: block;
+  -ms-flex: 1;
+  flex: 1;
+  height: 2px;
+  opacity: .1;
+  background-color: currentColor;
+  align-self: center;
+ }
+
+ .title {
+  display: flex;
+  margin: 2% 0;
+ }
+
+ .title h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0 1%;
+  display: flex;
+  justify-content: center;
+  color: #F08E33;
+}

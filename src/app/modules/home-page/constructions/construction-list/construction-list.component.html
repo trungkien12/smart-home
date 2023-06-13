@@ -1,0 +1,12 @@
+<div class="list-post">
+  <app-title-page titlePage="Công trình đã hoàn thành"  ></app-title-page>
+  <div class="post-preview">
+    <app-post-preview
+      *ngFor="let item of postPreviews"
+      [name]="item.name"
+      [imgSrc]="item.img"
+      [desc]="item.desc"
+    >
+    </app-post-preview>
+  </div>
+</div>
