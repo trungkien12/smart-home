@@ -5,8 +5,7 @@ import { AppComponent } from './app.component';
 import { ContentLayoutComponent } from './layout/content-layout/content-layout.component';
 import { AppRoutes } from './app.rouitng';
 import { FormsModule } from '@angular/forms';
-import { HomePageComponent } from './modules/home-page/home-page.component';
-import { ConstructionComponent } from './modules/construction/construction.component';
+import { HomeComponent } from './modules/home-page/home/home.component';
 import { CarouselComponent } from './shared/components/carousel/carousel.component';
 import { PostPreviewComponent } from './shared/components/post-preview/post-preview.component';
 import { ConstructionListComponent } from './modules/home-page/constructions/construction-list/construction-list.component';
@@ -21,13 +20,15 @@ import { ContactComponent } from './modules/contact/contact.component';
 import { CommitmentComponent } from './modules/home-page/commitment/commitment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
+import { FactoryComponent } from './modules/factory/factory.component';
+import { TypicalProjectsComponent } from './modules/typical-projects/typical-projects.component';
+import { ComboInteriorComponent } from './modules/combo-interior/combo-interior.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContentLayoutComponent,
-    HomePageComponent,
-    ConstructionComponent, //home page
+    HomeComponent,
     CarouselComponent,
     PostPreviewComponent,
     ConstructionListComponent,
@@ -39,7 +40,10 @@ import { SharedModule } from './shared/shared.module';
     CapacityProfileComponent,
     FooterComponent,
     ContactComponent,
-    CommitmentComponent //home page
+    CommitmentComponent,
+    FactoryComponent,
+    TypicalProjectsComponent,
+    ComboInteriorComponent
   ],
   imports: [
     BrowserModule,

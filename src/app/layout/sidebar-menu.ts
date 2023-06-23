@@ -41,17 +41,17 @@ export const MENUITEMS: MenuItem[] = [
   },
   {
     name: 'Xưởng sản xuất',
-    path: '/biding',
+    path: '/factory',
     children: []
   },
   {
     name: 'Công trình tiêu biểu',
-    path: '/biding',
+    path: '/typical-projects',
     children: []
   },
   {
     name: 'Combo nội thất',
-    path: '/biding',
+    path: '/combo-interior',
     children: []
   },
   {

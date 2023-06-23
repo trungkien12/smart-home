@@ -1,6 +1,9 @@
 import { RouterModule, Routes } from "@angular/router";
 import { ContentLayoutComponent } from "./layout/content-layout/content-layout.component";
 import { ContactComponent } from "./modules/contact/contact.component";
+import { FactoryComponent } from "./modules/factory/factory.component";
+import { TypicalProjectsComponent } from "./modules/typical-projects/typical-projects.component";
+import { ComboInteriorComponent } from "./modules/combo-interior/combo-interior.component";
 
 const routes: Routes = [
   {
@@ -27,6 +30,18 @@ const routes: Routes = [
           import('./modules/contact/contact.module').then(
             (m) => m.ContactModule
           )
+      },
+      {
+        path: 'factory',
+        component: FactoryComponent
+      },
+      {
+        path: 'typical-projects',
+        component: TypicalProjectsComponent
+      },
+      {
+        path: 'combo-interior',
+        component: ComboInteriorComponent
       }
     ]
   }
